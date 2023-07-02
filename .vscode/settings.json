@@ -1,0 +1,8 @@
+{
+  "material-icon-theme.activeIconPack": "nest",
+  "material-icon-theme.files.associations": {
+    "*.component.ts": "nest-module",
+    "*.component.js": "nest-module",
+    "tsconfig.publish.json": "tsconfig"
+  }
+}

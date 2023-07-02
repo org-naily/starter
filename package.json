@@ -1,0 +1,25 @@
+{
+  "name": "naily-starter",
+  "version": "0.0.0",
+  "description": "A Starter for Naily",
+  "scripts": {
+    "start": "npm run build && node dist/main",
+    "build": "tsc",
+    "dev": "nodemon",
+    "format": "prettier --write ./",
+    "lint": "eslint \"./**/*.ts\" --fix"
+  },
+  "author": "Your Name <your Email>",
+  "dependencies": {
+    "@naily/core": "^3.0.4",
+    "@naily/platform-express": "latest",
+    "@typescript-eslint/eslint-plugin": "^5.60.1",
+    "@typescript-eslint/parser": "^5.60.1",
+    "eslint": "^8.44.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "nodemon": "^2.0.22",
+    "prettier": "^2.8.8",
+    "typescript": "^5.1.6"
+  }
+}
